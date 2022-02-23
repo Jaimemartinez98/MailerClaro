@@ -40,6 +40,9 @@
                             Usuarios
                         </a>
                     @endif
+                    <a class="navbar-brand" href="{{ route('emails.index') }}">
+                        Emails
+                    </a>
                 @else
                 @endauth
 
